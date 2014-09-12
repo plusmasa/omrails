@@ -6,7 +6,10 @@ gem 'rails', '4.1.6'
 
 group :production do
 	gem 'pg'
+	
 end
+
+gem 'rails_12factor'
 
 group :development, :test do
 	gem 'rails_layout', github: 'RailsApps/rails_layout'
@@ -28,6 +31,9 @@ gem 'autoprefixer-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+
+#Login
+gem 'devise'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
