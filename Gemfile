@@ -10,6 +10,7 @@ group :production do
 end
 
 gem 'rails_12factor'
+gem 'newrelic_rpm'
 
 group :development, :test do
 	gem 'rails_layout', github: 'RailsApps/rails_layout'
